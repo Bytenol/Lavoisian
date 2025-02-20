@@ -1,0 +1,7 @@
+.vscode
+build
+embuild/lib
+embuild/CMakeFiles
+embuild/Makefile
+embuild/CMakeCache.txt
+embuild/cmake_install.cmake
