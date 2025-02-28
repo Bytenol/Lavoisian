@@ -1,7 +1,9 @@
 .vscode
 build
+scratch
 embuild/lib
 embuild/CMakeFiles
 embuild/Makefile
 embuild/CMakeCache.txt
 embuild/cmake_install.cmake
+compile_commands.json

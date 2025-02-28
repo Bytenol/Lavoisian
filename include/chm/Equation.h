@@ -1,15 +1,9 @@
 #ifndef __BYTENOL_CHM_EQUATION_H__
 #define __BYTENOL_CHM_EQUATION_H__
 
-#include <vector>
-#include <string>
 #include <set>
-#include <iostream>
-#include <algorithm>
 
-#include "Math.h"
-#include "utils.h"
-#include "Molecule.h"
+#include "Core.h"
 
 namespace chm
 {
@@ -26,7 +20,7 @@ namespace chm
     {
         std::vector<int> coeff;
         std::string text, error;
-        std::vector<chm::Molecule> m_reactants, m_products;
+        std::vector<chm::ChemicalEntity> m_reactants, m_products;
         std::set<std::string> lhs_atoms, rhs_atoms;
         std::vector<std::vector<int>> matrices;
 
